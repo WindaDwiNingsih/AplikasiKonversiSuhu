@@ -244,7 +244,6 @@ public class KonversiSuhu extends javax.swing.JFrame {
                 }
             }
             
-            
             jTextField2.setText("" + result +" "+ket);
         } catch (NumberFormatException ex) {
             JOptionPane.showMessageDialog(this, "Please enter a valid number", "Error", JOptionPane.ERROR_MESSAGE);
@@ -269,7 +268,6 @@ public class KonversiSuhu extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void celsiusButtonKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_celsiusButtonKeyTyped
-
         // TODO add your handling code here:
     }//GEN-LAST:event_celsiusButtonKeyTyped
 
